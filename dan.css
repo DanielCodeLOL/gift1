@@ -1,0 +1,55 @@
+body {
+  margin: 5;
+  padding: 0;
+  font-family: sans-serif;
+  background:#eae2055e;
+  color:rgba(162, 26, 94, 0.361);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.card {
+  background: white;
+  color: #bda60d;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,o.3 green, blue, alpha);
+  text-align: center;
+  max-width: 700px;
+  width: 90%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.card h1 {
+  color: #ff4081;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body {
+ font-family: Lucida Handwriting;
+}
